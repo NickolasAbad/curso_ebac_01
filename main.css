@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.418);
+}
+
+header {
+    padding-top: 320px;
+    padding-bottom: 48px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    padding: 8px;
+    margin: 0px 8px 48px 0px;
+    font-weight: lighter;
+    font-size: 24px;
+    display: inline;
+}
+
+#botao-adicionar {
+    background-color: #009432;
+    border: none;
+    padding: 8px;
+    margin: 0px 8px 48px 0px;
+    font-weight: lighter;
+    font-size: 24px;
+    display: inline;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#botao-clear {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ol {
+    text-align: center;
+}
+
+ol li {
+    color: #000000;
+    list-style-position: inside;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
