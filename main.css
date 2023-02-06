@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 64px;
+    padding: 16px 0;
+}
+
+button {
+    margin-top: 16px;
+}
+
+.form-group {
+    margin-top: 16px;
+}
